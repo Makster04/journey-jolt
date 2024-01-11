@@ -1,80 +1,65 @@
-<!DOCTYPE html>
-
 <html>
   <head>
-    <meta charset:"UTF-8">
+    <meta charset="UTF-8"> 
     <style>
       body{
         text-align: center;
       }
       nav {
-        background-color: rgb(255, 255, 255)
+        background-color: white;
       }
-    ul {
-      list-style: none
-      display: flex
-      justify-content: center;
-    }
-    li{
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      li {
         flex-direction: column;
         padding: 10px;
       }
-      li: hover{
-        letter-spacing: 5px;
-        color: grey; 
-      }
       img {
-        height: 200px
+        height: 200px;
       }
       body{
-        background-color: rgb(78, 125, 145);
+        background-color:rgba(29, 152, 227, 0.774);
       }
     </style>
   </head>
   <body>
     <header>
-    <h2>JourneyJolt</h2>
-         <ul>
-            <li>
-                <a href="https://maradychor.github.io/journey-jolt/index.html">Home: Find your Adventure!</a>
-            </li>
-            <li>
-                <a href="https://preveira.github.io/journey-jolt/">New Zealand: Kiwi Bliss, Mountainers, Nature's Embrace!"</a>
-            </li>
-            <li>
-                <a href="https://ahmed-elnogoumi.github.io/journeyjolt/">Egypt: Pyramids, Pharaohs, Timeless Wonders!"</a>
-            </li>
-            <li>
-                <a href="https://makster04.github.io/journey-jolt/">Greece: Islands, Mythology, Ancient Times!"</a>
-            </li>
+      <h1>JourneyJolt</h1>
+      <nav>
+        <ul>
+          <li><a href="https://maradychor.github.io/journey-jolt/index.html" target="_blank">Home</a></li>
+          <li><a href="https://preveira.github.io/journey-jolt/index.html" target="_blank">New Zealand: Natures Masterpiece Unveiled</a></li>
+          <li><a href="https://ahmed-elnogoumi.github.io/journeyjolt/" target="_blank">Egypt: Ancient Mysterites of Earth</a></li>
+          <li><a href="https://makster04.github.io/journey-jolt/" target="_blank">Greece: The Land of Wonder</a></li>
         </ul>
-        <h1>Greece: Land of Wonders</h1>
+      </nav>
     </header>
+    <main>
+      <h2>GREECE: The Land of Wonder!</h2>
       <img src="https://th.bing.com/th/id/R.481e596f0701d7899876348a84f56293?rik=O00FGXPAhmHbIg&riu=http%3a%2f%2fwww.theflagman.co.uk%2fwp-content%2fuploads%2f2017%2f03%2fflag-of-Greece.jpg&ehk=XAp%2b33pGKMICM17amC9svZc0sYSCT714VMDrEjyJIqE%3d&risl=&pid=ImgRaw&r=0">
       <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2021/06/02/20/istock-833264986.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp">
       <img src="https://handluggageonly.co.uk/wp-content/uploads/2019/05/Hand-Luggage-Only-20.jpg">
       <img src="https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1168009126v2-768x441.jpg">
-    <h3>About:</h3>
-        <div>
-          <p> Journey through Greece's kaleidoscope of wonders where azure seas kiss ancient ruins and vibrant cities pulse with life. From the iconic Acropolis in Athens to the sun-drenched beaches of Santorini, let Greece's rich history, delectable cuisine, and warm hospitality weave an unforgettable tapestry. Embrace the magic, taste the olives, and dance to Zorba's rhythm!"
-          </p>
-        </div>
-        <script>
-          let name = prompt("What is your name?");
-          document.write("<p>Hello, " + name + "!<p>");
-            let favCountry = prompt("What is your favorite country?");
-            document.write("<p>" + name + "'s favorite country: " + favCountry + ".<p>");
-              let y_or_n = prompt("Looking for great prices? y/n");
-              if(y_or_n === 'y') {
-                document.write("<p>Check out <a href='https://www.tripadvisor.com/Tourism-g189398-Greece-Vacations.html' target='_blank'>Trip Advisor</a> for great travel deals!</p>");
-              } else {
-                document.write('OK, maybe next time. :)');
+      <h2>About Greece</h2>
+        <p>Journey through Greece's kaleidoscope of wonders where azure seas kiss ancient ruins and vibrant cities pulse with life. From the iconic Acropolis in Athens to the sun-drenched beaches of Santorini, let Greece's rich history, delectable cuisine, and warm hospitality weave an unforgettable tapestry. Embrace the magic, taste the olives, and dance to Zorba's rhythm!</p>
+    </main>
+    <script>
+      let name = prompt("What is your name?");
+      document.write("<p>Hello, " + name + "!<p>");
+
+      let favCountry = prompt("What is your favorite country?");
+      document.write("<p>" + name + "'s favorite country: " + favCountry + ".<p>");
+
+      let y_or_n = prompt("Looking for great prices? y/n");
+      if(y_or_n === 'y') {
+        document.write("<p>Check out <a href='https://tripadvisor.com' target='_blank'>Expedia</a> for great travel deals!</p>");
+      } else {
+        document.write('OK, maybe next time. :)');
       }
-        </script>
-    <footer>
-      <p>&copy; JourneyJolt 2024
-    </footer>  
-    </body>
-</html>
-    </body>
+    </script>
+    <footer>&copy; JourneyJolt 2024</footer>
+  </body>
 </html>
