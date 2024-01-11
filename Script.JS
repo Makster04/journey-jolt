@@ -13,11 +13,11 @@ let name = prompt("What is your name?");
         document.write('OK, maybe next time. :)');
       }
  
-      function review(rating);
+      review(rating);
       let rating;
       let count = 0;
       while(!rating || rating > 5){
-        rating = parseInt("Rate Us! 1 -5")
+        rating = parseInt(prompt("Rate Us! 1 -5"));
       }
 
     do {
