@@ -19,7 +19,7 @@ function y_or_n(){
         y_or_n = prompt("Looking for great prices? y/n");
     }
     if(y_or_n === 'y') {
-        document.write("<p>Check out <a href='https://expedia.com' target='_blank'>Expedia</a> for great travel deals!</p>");
+        document.write("<p>Check out <a href='https://tripadvisor.com' target='_blank'>Trip Advisor</a> for great travel deals!</p>");
     } else {
         document.write('<p>OK, maybe next time. :)</p>');
     }
